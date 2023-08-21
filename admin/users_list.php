@@ -77,7 +77,7 @@ $number_of_page = ceil($number_of_result / $results_per_page);
                     <td><?php echo $user['id']; ?></td>
                     <td><?php echo $user['username']; ?></td>
                     <td>
-                      <img src="<?php echo 'assets\images\admins\\' . $user['profile_img']; ?>" alt="" width="100" height="100">
+                      <img src="<?php echo 'assets\images\users\\' . $user['profile_img']; ?>" alt="" width="100" height="100">
                     </td>
                     <td><?php echo $user['phone']; ?></td>
                     <td><?php echo $user['email']; ?></td>
