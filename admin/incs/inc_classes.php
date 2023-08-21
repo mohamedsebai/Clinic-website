@@ -1,9 +1,15 @@
 
 <?php
+if (strpos($_SERVER['REQUEST_URI'], "validateForms") !== false){
+  spl_autoload_register(function($class){
+    include "../../classes/$class.class.php";
+  });
+}else{
+  spl_autoload_register(function($class){
+    include "classes/$class.class.php";
+  });
+}
 
-spl_autoload_register(function($class){
-  include "classes/$class.class.php";
-});
 
 //$db = new DBConnect();
 $session = new Session();

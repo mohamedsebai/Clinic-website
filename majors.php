@@ -33,7 +33,7 @@
             <div class="majors-grid">
 
             <?php
-            $majors = $major->getPaginateJoin(filter: true ,start_from: $start_from, results_per_page: $results_per_page);
+            $majors = $major->getPaginateJoin(start_from: $start_from, results_per_page: $results_per_page);
             if(!empty($majors)){
                 foreach($majors as $major){
                 ?>

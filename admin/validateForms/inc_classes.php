@@ -1,3 +1,3 @@
 <?php 
 
-include '../../inc_classes.php';
+include '../../incs/inc_classes.php';

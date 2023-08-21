@@ -1,4 +1,4 @@
-<?php include('../inc.php'); ?>
+<?php include('../incs/inc.php'); ?>
 <!DOCTYPE php>
 <php lang="en">
 

@@ -1,4 +1,4 @@
-<?php require_once('inc.php'); ?>
+<?php require_once('incs/inc.php'); ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 

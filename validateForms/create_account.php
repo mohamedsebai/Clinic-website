@@ -1,6 +1,6 @@
 <?php 
 
-include '../inc.php';
+include '../incs/inc.php';
 
 if($_SERVER['REQUEST_METHOD'] == 'POST'){ 
     if(isset($_POST['create_account'])){

@@ -1,4 +1,4 @@
-<?php include('inc_classes.php'); ?>
+<?php include('incs/inc_classes.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
