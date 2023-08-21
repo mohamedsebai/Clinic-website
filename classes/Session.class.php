@@ -34,10 +34,5 @@ class Session {
   }
 
 
-  // public function SessionArray(){
-  //   $_SESSION[$array_name] = $valu
-  // }
-
-
 
 }

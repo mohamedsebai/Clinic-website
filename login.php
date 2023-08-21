@@ -1,6 +1,4 @@
-
-<?php 
-
+<?php
 require_once('templates/header.php'); 
 
 if($session->check('role_user')){
