@@ -33,7 +33,7 @@
             <div class="majors-grid">
 
             <?php
-            $majors = $major->getPaginateJoin(start_from: $start_from, results_per_page: $results_per_page);
+            $majors = $major->paginate(cols: "*", filter: true , start_from: $start_from, results_per_page: $results_per_page);
             if(!empty($majors)){
                 foreach($majors as $major){
                 ?>
@@ -42,7 +42,7 @@
                             alt="major">
                         <div class="card-body d-flex flex-column gap-1 justify-content-center">
                             <h4 class="card-title fw-bold text-center"><?php echo $major['title']; ?></h4>
-                            <a href="doctors/doctor.php?doctor_id=<?php echo $major['doctor_id']; ?>" class="btn btn-outline-primary card-button">Browse Doctors</a>
+                            <a href="doctors/index.php?major_id=<?php echo $major['id']; ?>" class="btn btn-outline-primary card-button">Browse Doctors</a>
                         </div>
                     </div>
                     <?php
